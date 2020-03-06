@@ -9,3 +9,6 @@ sftp-config-alt*.json
 
 # macOS
 .DS_Store
+
+# original CSS that shouldn't be in this repo
+original-common.css
