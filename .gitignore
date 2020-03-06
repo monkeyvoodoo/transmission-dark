@@ -1,4 +1,11 @@
-.DS_Store
-sftp-config.json
-*.sublime-project
+# Sublime Text stuff
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
 *.sublime-workspace
+*.sublime-project
+sftp-config.json
+sftp-config-alt*.json
+
+# macOS
+.DS_Store
