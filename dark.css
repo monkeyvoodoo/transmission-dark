@@ -1,13 +1,12 @@
 body {
-	letter-spacing: 0.0925em;
 	color: rgb(233, 233, 233);
-	background-color: rgb(39, 31, 33);
+	background-color: rgb(29, 31, 33);
 }
 ul.torrent_list div.torrent_progress_bar {
 	background-image: url("images-dark/progress.png");
 }
 div#toolbar {
-	background-color: rgb(39, 31, 33);
+	background-color: rgb(29, 31, 33);
 	background-image: none;
 	border-color: rgb(52, 54, 56);
 	border: none;
@@ -15,77 +14,46 @@ div#toolbar {
 }
 #statusbar {
 	background-image: none;
-	background-color: rgb(39, 31, 33);
+	background-color: rgb(29, 31, 33);
 	border: none none;
 }
 ul.torrent_list li.torrent {
-		border-bottom: 1px solid rgb(52, 54, 56);
+		border-bottom: 1px solid black;
 		color: rgb(160, 160, 160);
-		background-color: rgb(39, 31, 33);
+		background-color: rgb(29, 31, 33);
 }
 ul.torrent_list li.torrent: hover,ul.torrent_list li.torrent.even:hover {
 	background-color: rgb(52, 54, 56);
 }
 ul.torrent_list li.torrent div.torrent_name {
-		color: rgb(200, 200, 200);
+	color: rgb(200, 200, 200);
 }
 ul.torrent_list li.torrent.even {
-		background-color: rgb(14, 10, 8);
+	background-color: rgb(52, 54, 56);
 }
 ul.torrent_list li.torrent.selected {
-		background-color: #137;
+	background-color: rgb(80, 83, 85);
 }
-div#torrent_container {
-	background-color: black;
+div.dialog_container div#dialog_window {
+	background-color: rgb(119, 122, 123) !important;
+	color: rgb(233, 233, 233) !important;
 }
-tr.inspector_peer_entry.odd {
-		background-color: #123;
+tr.inspector_peer_entry.even, div#torrent_inspector li.inspector_tracker_entry {
+	background-color: rgb(29, 31, 33) !important;
+	color: rgb(233, 233, 233) !important;
 }
-ul.torrent_list li.torrent.compact div.torrent_name {
-		color: greenyellow !important;
+tr.inspector_peer_entry.odd, div#torrent_inspector li.inspector_tracker_entry.odd {
+	background-color: rgb(52, 54, 56) !important;
+	color: rgb(233, 233, 233) !important;
 }
-div#torrent_inspector div.tracker_host {
-		font-size: 1.2em;
-		font-weight: bold;
-		color: rgb(216, 28, 28);
+div#torrent_inspector div.tracker_host, div#torrent_inspector div.inspector_torrent_file_list_entry_name {
+	color: rgb(233, 233, 233) !important;
 }
-div#torrent_inspector ul.tier_list .odd, div#torrent_inspector ul.tier_list .even {
-	border-radius: 7px;
-	margin: 19px auto 19px auto;
-	background-color: #272727;
+#statusbar #speed-info #speed-dn-icon {
+	background: url("images-dark/arrow-down.png");
 }
-
-div#torrent_inspector ul.tier_list .even .tracker_host {
-	color: yellow;
-}
-div#torrent_inspector ul.tier_list .even .tracker_activity {
-	color: orange;
-}
-
-div#torrent_inspector ul.tier_list .odd .tracker_host {
-	color: yellowgreen;
-}
-
-div#torrent_inspector ul.tier_list .odd .tracker_activity {
-	color: orange;
-}
-.inspector_group_label {
-	color: white;
-}
-
-#inspector-page-info {
-	background-color: #272727;
-	color: yellowgreen;
-	border-radius: 7px;
-	padding: 3px 0px 7px 0px;
-	margin-top: 10px;
-	
-}
-div#torrent_inspector div.inspector_torrent_file_list_entry_name {
-	color: yellow;
-}
-div#torrent_inspector div.inspector_torrent_file_list_entry_progress {
-	color: yellowgreen;
+#statusbar #speed-info #speed-up-icon {
+	background: url("images-dark/arrow-up.png");
 }
 div#toolbar > div#toolbar-open {
 	background-image: url("images-dark/toolbar-folder.png");
